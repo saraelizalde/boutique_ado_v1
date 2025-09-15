@@ -150,7 +150,7 @@
         var url = `/bag/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken, 'product_size': size};
         $.post(url, data)
-         .done(function() {
+         .done(function() { 
              location.reload();
          });
     })
