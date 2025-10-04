@@ -31,7 +31,11 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'boutique-ado-school-project-38f63d9840f1.herokuapp.com/',
+    'boutique-ado-school-project-38f63d9840f1.herokuapp.com',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://boutique-ado-school-project-38f63d9840f1.herokuapp.com',
 ]
 
 # Application definition
